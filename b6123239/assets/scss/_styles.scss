@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'sutregular';
+    src: url('../fonts/sut_regular_ver_1.00-webfont.eot');
+    src: url('../fonts/sut_regular_ver_1.00-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sut_regular_ver_1.00-webfont.woff2') format('woff2'),
+         url('../fonts/sut_regular_ver_1.00-webfont.woff') format('woff'),
+         url('../fonts/sut_regular_ver_1.00-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+/* ========================== banner ========================== */
+.banner_container {
+    text-align: left;
+    }
+    
+    /* ========================== banner ========================== */
+/* ========================= content ========================== */
+.occup-grid {
+    @include grid-default(100%, 1fr);
+    }
+    
+    .header_content {
+    font-family: 'sutregular';
+    width: 100%;
+    height: auto;
+    margin: 0 0 0vh 0;
+    padding: 0.7vh 0;
+    text-align: left;
+    color: $colork;
+   background-color: $colorbg;
+   @include border-radius(3vh);
+    @include box-shadow(2px, 8px, 14px, 0px, rgba(62, 75, 73, 0.25));
+    h3 {
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    }
+    }
+    .box1 {
+    @include box-default(10px, 10px, 10px, 10px);
+    }
+    
+    .flex-row {
+    font-family: 'sutregular';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 0rem 1rem;
+    background-color: $white;
+    @include border-radius(3vh);
+    div {
+    width: 30%;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+    
+    }
+    .a0{
+        background-color: $colorbg;
+        @include border-radius(3vh);
+    @include box-shadow(2px, 8px, 14px, 0px, rgba(62, 75, 73, 0.25));
+    }
+    .a1{
+        background-color: $colorbg;
+        @include border-radius(3vh);
+        @include box-shadow(2px, 8px, 14px, 0px, rgba(62, 75, 73, 0.25));
+    }
+    .a2{
+        background-color: $colorbg;
+        @include border-radius(3vh);
+        @include box-shadow(2px, 8px, 14px, 0px, rgba(62, 75, 73, 0.25));
+    }
+    h3 {
+    font-size: 1.25rem;
+    color: $colork;
+    margin: 0.5rem;
+    }
+    p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    color: $colork;
+    margin: 0.5rem 0;
+    text-align: left;
+    }
+    a {
+    font-size: 1.1rem;
+    color: $colork;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+   
+    @include border-radius(6px);
+    }
+    }
+    /* ========================= content ========================== */
+    /* ========================== footer ========================== */
+    footer {
+    width: 84%;
+    height: auto;
+    background: #1f1f1f;
+    @include border-radius(3vh);
+    @include box-shadow(2px, 8px, 14px, 0px, rgba(62, 75, 73, 0.25));
+    }
+    .footer_grid {
+    display: grid;
+    grid-template-columns: 0;
+    }
+    .contact_us {
+    font-family: 'sutregular';
+    color: $white;
+    text-align: left;
+    padding: 1rem 0 2rem 0;
+    margin: 1rem;
+   
+    }
+   
+    /* =============x============= footer ============x============== */
